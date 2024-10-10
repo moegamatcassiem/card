@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.whole-thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 0, 35);
+}
+
+.block{
+    width: 260px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(25, 0, 45);
+    border-radius: 4%;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.content{
+    display: grid;
+    padding: 0%;
+    margin: 0%;
+    gap: 1rem;
+}
+
+.screen{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 3%;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+.words{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    font-family:sans-serif ;
+    margin-top: 108%;
+    
+} 
+  
+.small{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: hsl(215, 51%, 70%);
+    width: 220px;
+    
+}
+
+.line{
+    width: 230px;
+    height: 0.04px;
+    background-color:hsl(178, 100%, 50%);
+    opacity: 30%;
+}
+
+.idk{
+    display: flex;
+}
+
+.number{
+    color: hsl(178, 100%, 50%);
+    font-family: sans-serif;
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.right{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    margin-left: 65px;
+    gap: 3px;
+}
+
+.time{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.bottom{
+    display: flex;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-image: url(image-avatar.png);
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+.end{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.name{
+    margin-top: 2%;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.words:hover{
+    color: hsl(178, 100%, 50%)
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%)
+}
+
+.hover{
+    z-index: 1;
+    opacity: 0;
+}
+
+.over{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 3%;
+    position: fixed;
+    margin-top: 1.5%;
+    z-index: 1;
+    opacity: 50%;
+}
+
+.eye{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover:hover{
+    opacity: 100%;
+}
